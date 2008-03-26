@@ -1,0 +1,33 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Deployment;
+		activeTarget = 8D5B49AC048680CD000E48DA /* Photon */;
+		addToTargets = (
+			8D5B49AC048680CD000E48DA /* Photon */,
+		);
+		codeSenseManager = 78F5439A0D996F870055C151 /* Code sense */;
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 228159366;
+			PBXWorkspaceStateSaveDate = 228159366;
+		};
+		sourceControlManager = 78F543990D996F870055C151 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	78F543990D996F870055C151 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	78F5439A0D996F870055C151 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D5B49AC048680CD000E48DA /* Photon */ = {
+		activeExec = 0;
+	};
+}

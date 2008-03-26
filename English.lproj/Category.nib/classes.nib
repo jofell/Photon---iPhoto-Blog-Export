@@ -1,0 +1,63 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                autofill = id; 
+                buyProduct = id; 
+                cancelPasswordSheet = id; 
+                closeAccountSheet = id; 
+                closeCategorySheet = id; 
+                closeRegisterSheet = id; 
+                createCategory = id; 
+                refreshAlbums = id; 
+                refreshCategories = id; 
+                registerProduct = id; 
+                saveAccount = id; 
+                savePasswordSheet = id; 
+                showAccountHelp = id; 
+                showAccountSheet = id; 
+                showCategorySheet = id; 
+                showPasswordSheet = id; 
+                showRegisterSheet = id; 
+            }; 
+            CLASS = PhotoToWeblog; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                accountSheet = NSWindow; 
+                buyButton = NSButton; 
+                categoryNameTextField = NSTextField; 
+                categoryPopUpButton = NSPopUpButton; 
+                categorySheet = NSWindow; 
+                createCategoryProgressIndicator = NSProgressIndicator; 
+                createCategoryProgressTextField = NSTextField; 
+                exportManager = id; 
+                firstView = id; 
+                imageHeightFormCell = NSFormCell; 
+                imageWidthFormCell = NSFormCell; 
+                lastView = id; 
+                newCategoryButton = NSButton; 
+                passwordSecureTextField = NSSecureTextField; 
+                passwordSheet = NSWindow; 
+                refreshCategoryProgressIndicator = NSProgressIndicator; 
+                registerButton = NSButton; 
+                registerSheet = NSWindow; 
+                registeredToTextField = NSTextField; 
+                serialNameTextField = NSTextField; 
+                serialNumberTextField = NSTextField; 
+                settingsView = id; 
+                tempPasswordSecureTextField = NSSecureTextField; 
+                thumbnailHeightFormCell = NSFormCell; 
+                thumbnailWidthFormCell = NSFormCell; 
+                useCommentsButton = NSButton; 
+                usePhotoDateButton = NSButton; 
+                useThumbnailButton = NSButton; 
+                versionTextField = NSTextField; 
+                weblogArrayController = NSArrayController; 
+                weblogPopUpButton = NSPopUpButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

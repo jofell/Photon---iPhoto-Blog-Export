@@ -1,0 +1,82 @@
+{
+    IBClasses = (
+        {CLASS = EntryOption; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {addEntryOption = id; changeEntryOption = id; removeEntryOption = id; }; 
+            CLASS = EntryOptionViews; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {delegate = id; entryOptionView = NSView; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                addAccount = id; 
+                autodiscover = id; 
+                cancelPasswordSheet = id; 
+                changeAccount = id; 
+                closeAccountSheet = id; 
+                closeCategoriesSheet = id; 
+                closeCategorySheet = id; 
+                closeTemplateSheet = id; 
+                createCategory = id; 
+                refreshCategories = id; 
+                removeAccount = id; 
+                saveAccount = id; 
+                savePasswordSheet = id; 
+                selectCategory = id; 
+                showAccountHelp = id; 
+                showAccountSheet = id; 
+                showCategoriesSheet = id; 
+                showCategorySheet = id; 
+                showPasswordSheet = id; 
+                showTemplateSheet = id; 
+                useSelectedCategories = id; 
+            }; 
+            CLASS = Photon; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                accountSheet = NSWindow; 
+                autodiscoverProgressIndicator = NSProgressIndicator; 
+                categoriesSheet = NSWindow; 
+                categoryNameTextField = NSTextField; 
+                categoryPopUpButton = NSPopUpButton; 
+                categorySheet = NSWindow; 
+                categoryTableView = NSTableView; 
+                createCategoryProgressIndicator = NSProgressIndicator; 
+                createCategoryProgressTextField = NSTextField; 
+                entryOptionViews = EntryOptionViews; 
+                entryOptionsView = NSView; 
+                firstView = id; 
+                imageHeightFormCell = NSFormCell; 
+                imageUploadPathFormCell = NSFormCell; 
+                imageWidthFormCell = NSFormCell; 
+                lastView = id; 
+                offlineAlertButton = NSButton; 
+                passwordSecureTextField = NSSecureTextField; 
+                passwordSheet = NSWindow; 
+                refreshCategoryProgressIndicator = NSProgressIndicator; 
+                settingsView = id; 
+                singlePostPrologue = NSTextField; 
+                singlePostTitle = NSTextField; 
+                tempPasswordSecureTextField = NSSecureTextField; 
+                tempUserNameTextField = NSTextField; 
+                templateSheet = NSWindow; 
+                thumbnailHeightFormCell = NSFormCell; 
+                thumbnailUploadPathFormCell = NSFormCell; 
+                thumbnailWidthFormCell = NSFormCell; 
+                versionTextField = NSTextField; 
+                weblogArrayController = NSArrayController; 
+                weblogPopUpButton = NSPopUpButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = PhotonPluginBox; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mPlugin = id; }; 
+            SUPERCLASS = NSBox; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,14 @@
+<html>	<head>		<title>What’s an Access Point? and what’s my Blog ID?</title>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">		<meta name="copyright" content="Copyright 2004 Daikini Software. All Rights Reserved.">		<meta name="keywords" content="weblog, web log, blog, setup, add, adding, account, ID, access, XMLRPC">
+		<meta name="description" content="Configuring Photon to recognize and interact with your weblog software">
+		<link href="../styles/custom_style.css" rel="stylesheet" media="screen">	</head>	<body>
+	    <div id="caticon"><img src="../images/icon32.jpg" alt="Photon Icon" height="32" width="32" border="0"></div>		<div id="pagetitle"><h1>What’s an Access Point? and what’s my Blog ID?</h1></div>
+		<div id="pagecontent">
+		<p>‘Access Point’, ‘Blog ID’, and ‘Platform’ are three absolutely vital pieces of information Photon uses to communicate with your blogging software. ‘Platform’ in itself is not a difficult question to answer; it should be quite well known to you whether you use Movable Type™ or TypePad™ to power your weblog, though the other two may pose some difficulty.</p>
+		<div class="taskbox"><h2>Movable Type users:</h2><p>Your blog’s access point is the location of its XML-RPC server, found in your Movable Type installation directory with the name <code>mt-xmlrpc.cgi</code>. For example: <code>http://www.example.com/mt/mt-xmlrpc.cgi</code></p>
+		<p>Your blog ID can be printed into any template using the template tag <code>&lt;$MTBlogID$&gt;</code>, and can alternately be found in the location bar of your browser while you’re logged in to Movable Type. For example: <code>http://www.example.com/mt/mt.cgi?__mode=menu&amp;<strong>blog_id=2</strong></code></p></div>
+		<div class="taskbox"><h2>TypePad users:</h2><p>The access point for all TypePad weblogs is <code>http://www.typepad.com/t/api</code></p>
+		<p>Your blog ID, like Movable Type users, can be found in the location bar of your browser while logged in to TypePad. For example: <code>https://www.typepad.com/t/app/weblog/manage?<strong>blog_id=12345</strong></code></div>
+		<ul><li><a href="Autodiscovering_blog_details.html">Autodiscovering blog details</a></li></ul>
+		</div>	</body>
+</html>
